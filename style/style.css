@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CO:wght@100..400&display=swap');
 
 body {
@@ -203,7 +201,7 @@ header {
 
 
 
-.run-section{
+.run-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -213,17 +211,14 @@ header {
     margin: 0px auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    /* padding: 50px; */
 }
 
-.run-contant{
+
+.run-contant {
     width: 90%;
     margin: 50px;
 }
-.run-img{
-    /* width: 90%; */
-    margin: 50px;
-}
+
 
 .run-title h2 {
     color: white;
@@ -236,11 +231,12 @@ header {
     padding-bottom: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
-#bt{
+
+#bt {
     margin-top: -50px;
 }
 
-.banner-btn3{
+.banner-btn3 {
     background-color: rgb(230, 83, 60);
     border-radius: 10px;
     border: none;
@@ -249,41 +245,222 @@ header {
     height: 30px;
     margin-right: 10px;
     color: white;
-    font-weight: 400;
+    font-weight: 700;
     font-size: medium;
 }
 
-.btn{
+.btn {
     height: 50px;
     margin-top: 50px;
 }
-#imgs{
+
+.run-img{
+    width: 100%;
+}
+
+#imgs {
     width: 350px;
-    height: 300px;
+    height: 350px;
     border-radius: 16px;
+    margin-right: 50px;
+}
+
+
+/* ------------- Calculator section ------------------ */
+.calculator-container {
+    width: 100%;
+    /* height: 400px; */
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    /* margin: 20px 0px; */
+
+}
+
+.container {
+    width: 85%;
+    /* height: 400px; */
+    margin: 0px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.bmi {
+    font-size: 2rem;
+    color: white;
+}
+
+table {
+    width: 320px;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.BMI {
+    color: white;
+    font-size: 20px;
+}
+
+td {
+    color: gray;
+    font-weight: bold;
+}
+
+.Bmi {
+    color: rgba(111, 109, 109, 0.956);
+}
+
+.calculate {
+    /* border: 1px solid gray; */
+    width: 100%;
+    margin-left: 5px;
+}
+
+.calculator {
+    width: 100%;
+
+}
+
+.input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.haff {
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    font-weight: 800;
+    background-color: rgba(87, 86, 86, 0.546);
+    font-size: medium;
+    color: azure;
+    width: 190%;
+}
+
+.box {
+    position: relative;
+}
+
+.box2 {
+    position: relative;
+}
+
+.icon {
+    color: white;
+    position: absolute;
+    left: 220px;
+    top: 10px;
+}
+
+.icon2 {
+    color: white;
+    position: absolute;
+    left: 520px;
+    top: 20px;
+}
+
+.full {
+    margin-top: 5px;
+    width: 97%;
+}
+
+.late-btn {
+    margin-top: 10px;
+    /* width: 50%; */
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 60%;
+    height: 40px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+
+/* --------------- our team section ---------- */
+.team-section {
+    background-color: rgba(63, 62, 62, 0.549);
+    border-radius: 16px;
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.cart-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.cart {
+    position: relative;
+border-radius: 10px;
+}
+
+.cart-text {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 30px;
+    inset: 0;
+    /* top: 200px;
+    left: 30px; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.305);
+    border-radius: 10px;
+}
+
+#p1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#p2 {
+    color: rgba(161, 159, 159, 0.802);
+    font-weight: 600;
 }
 
 
 
+/*---------------- footer section ------------ */
+#get {
+    font-size: 20px;
+    color: white;
+}
 
+.footer-heading p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-p p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 
@@ -310,7 +487,8 @@ header {
     .banner {
         flex-direction: column;
     }
-    .banner-btns{
+
+    .banner-btns {
         justify-content: space-between;
     }
 
@@ -321,7 +499,6 @@ header {
     .banner-container {
         color: white;
         width: 100%;
-        /* border: 2px solid salmon; */
 
     }
 
@@ -346,13 +523,48 @@ header {
         flex-direction: column;
         width: 100%;
     }
-    .btn{
+
+    .btn {
         display: flex;
         justify-content: center;
-        /* padding: 20px; */
     }
-    .banner-btn3{
+
+    .banner-btn3 {
         width: 80%;
     }
 
+    #imgs{
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .input {
+        /* grid-template-columns: repeat(1, 1fr); */
+    }
+
+    .icon {
+        left: 130px;
+    }
+
+    .icon2 {
+        left: 300px;
+    }
+
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aligns {
+        align-items: start;
+    }
 }
