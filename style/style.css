@@ -415,6 +415,7 @@ td {
     width: 100%;
     height: 300px;
     border-radius: 10px;
+    
 }
 
 .cart {
@@ -426,6 +427,7 @@ border-radius: 10px;
     position: absolute;
     padding-top: 200px;
     padding-left: 30px;
+    /* height: 300px; */
     inset: 0;
     /* top: 200px;
     left: 30px; */
@@ -452,14 +454,25 @@ border-radius: 10px;
     color: white;
 }
 
-.footer-heading p {
-    font-size: 1rem;
+.footer-heading  p{
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-p p {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-container{
+    width: 85%;
+    m
+}
+
+#fit {
+    color: rgb(230, 83, 60);
+    font-size: 4em;
+    font-weight: 800px;
 }
 
 
